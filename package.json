@@ -3,7 +3,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "force-build": "(if exist .next rd /s /q .next 2>nul) && next build"
   },
   "dependencies": {
     "chart.js": "^3.7.1",
