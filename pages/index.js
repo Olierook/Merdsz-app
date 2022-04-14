@@ -1,7 +1,5 @@
-import { getFirestore, setDoc, doc } from 'firebase/firestore'
 import Head from 'next/head'
-import Link from 'next/link'
-import Chart from '../components/chart';
+import Chart from '../components/Chart';
 import Clock from '../components/Clock';
 import { useBlue, useDuration, useRed, useGreen, useRoundConfig, useTimestamp } from './../fetchData/index';
 

@@ -1,7 +1,4 @@
-import { getFirestore, setDoc, doc } from 'firebase/firestore'
 import Head from 'next/head'
-import Link from 'next/link'
-import reactDom from 'react-dom';
 import Button from '../components/Button';
 import Clock from '../components/Clock';
 import { useBlue, useDuration, useRed, useGreen, useRoundConfig, useTimestamp, useUpcomingTitle } from '../fetchData/index';

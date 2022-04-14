@@ -1,11 +1,8 @@
-import { getFirestore, setDoc, doc } from 'firebase/firestore'
 import Head from 'next/head'
-import Link from 'next/link'
 import Button from '../components/Button';
 import ButtonGrid from '../components/ButtonGrid';
-import Chart from '../components/chart';
 import Clock from '../components/Clock';
-import { useBlue, useDuration, useRed, useGreen, useRoundConfig, useTimestamp, useCount } from './../fetchData/index';
+import { useDuration, useRoundConfig, useTimestamp, useCount } from './../fetchData/index';
 
 export default function Admin() {
 
